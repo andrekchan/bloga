@@ -22,25 +22,6 @@ a {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  flex-wrap: wrap;
-}
-
-.menu li {
-  padding: 5px;
-  margin-left: 5px;
-
-}
-
-.menu li a {
-  padding: 10px;
-  /*background: rgb(105, 104, 104);*/
-  display: block;
-}
-
 .footer {
   background: #4b3e30;
   color: wheat;
@@ -119,4 +100,23 @@ a {
 }
 .post h1 {
   text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  padding: 5px;
+  margin-left: 5px;
+
+}
+
+.menu li a {
+  padding: 10px;
+  /*background: rgb(105, 104, 104);*/
+  display: block;
 }

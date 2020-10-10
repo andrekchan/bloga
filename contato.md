@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Contato
 ---
 
 # Página para contato
