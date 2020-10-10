@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Andre Kim
+author: André Kim
 ---
  
 É bastante complicado viver em um mundo ditado por uma quarentena incessante. Tal situação não poderia ser mais clara que fazendo parte de um grupo de canto. O Acappolli, de que eu faço parte, é um grupo com vários membros que semanalmente se encontram pelo menos duas vezes para treinar com ensaios (de cujas organizações eu faço parte). Assim, é bastante claro que, quando fomos afetados pela quarentena, nossa vida e cotidiano teve que mudar drasticamente.

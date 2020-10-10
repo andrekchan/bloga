@@ -5,4 +5,4 @@ title: Contato
 
 # Página para contato
 
-Página de contato.
+Para me contatar, pode enviar um e-mail para andrekchan@usp.br .
