@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+<div class="blog">
+
+<h1>Postagens Recentes</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{post.url | relative_url}}">{{ post.title  }}</a></h2>
+      {{ post.excerpt}}
+    </li>
+  {% endfor %}
+</ul>
+
+</div>

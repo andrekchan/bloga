@@ -1,0 +1,122 @@
+body, ul, li, p {
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body {
+  background-color: rgba(143, 143, 143, 0.479);
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+.header {
+  background:   #4b3e30;
+  color:  #4b3e30;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  padding: 5px;
+  margin-left: 5px;
+
+}
+
+.menu li a {
+  padding: 10px;
+  /*background: rgb(105, 104, 104);*/
+  display: block;
+}
+
+.footer {
+  background: #4b3e30;
+  color: wheat;
+  
+}
+
+.footer p {
+  color: wheat;
+  text-align: center;
+  padding: 15px;
+}
+
+.content {
+  background-color: rgb(194, 192, 192);
+  min-height: 400px;
+  max-width: 850px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  
+  
+}
+
+ img {
+   max-width: 100%;
+   display: block;
+ }
+
+.home {
+  display: grid;
+  max-width:850px;
+}
+
+.home img {
+  grid-column: 1;
+  grid-row: 1/5;
+}
+
+.home h1 {
+  background-color: rgba($color: #3f3f3fa6, $alpha: .5);
+  padding: 30px;
+  color: wheat;
+  grid-column: 1;
+  text-align: center;
+  grid-row: 2/3;
+  
+}
+.home h2,h3 {
+  grid-row: 2/3;
+  
+}
+
+.blog {
+
+  background-color: rgba(226, 211, 179, 0.603);
+  padding: 30px;
+}
+
+.blog ul li h2 a {
+  color: #4b3e30;
+}
+
+.blog p {
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #4b3e30;
+}
+
+.blog h1 {
+  color: #4b3e30;
+}
+
+.post p {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+}
+.post h1 {
+  text-align: center;
+}

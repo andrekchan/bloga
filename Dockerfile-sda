@@ -1,0 +1,11 @@
+FROM jekyll/builder AS build
+WORKDIR /tmp
+COPY . .
+RUN gem install bundler -i /usr/gem -v 2.1.4
+RUN bundle install
+RUN mkdir .jekyll-cache _site11 \
+    && jekyll build --trace
+
+FROM nginx
+COPY --from=build /tmp/_site11 /usr/share/nginx/html
+EXPOSE 80
